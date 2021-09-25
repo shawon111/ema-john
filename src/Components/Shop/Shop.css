@@ -1,0 +1,33 @@
+.shop-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.search-box{
+    background-color: #222;
+    padding: 20px;
+    color: #fff;
+}
+.search-field{
+    width: 80%;
+    margin: auto;
+}
+#product-input{
+    padding: 5px 5px;
+    border:none;
+    font-size: 18px;
+    width: 85%;
+}
+#search-btn{
+    padding: 5px 5px;
+    border:none;
+    font-size: 18px;
+    width: 10%;
+    background-color: #F0C14B;
+    cursor: pointer;
+    color: #fff;
+}
+.product-container{
+    border-right: 1px solid lightgray;
+    margin-right: 5px;
+    margin-left: 150px;
+}
